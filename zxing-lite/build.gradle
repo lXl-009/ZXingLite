@@ -43,7 +43,9 @@ dependencies {
     androidTestImplementation deps.test.runner
     androidTestImplementation deps.test.espresso
 
-    compileOnly  deps.androidx.appcompat
+//    compileOnly  deps.androidx.appcompat
+    api "androidx.core:core:1.3.2"
+    api "androidx.fragment:fragment:1.1.0"
     api deps.zxing
     api deps.camera_core
     api deps.camera_camera2
